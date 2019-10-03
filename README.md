@@ -3,7 +3,9 @@ Fusuma is multitouch gesture recognizer. This gem makes your linux PC able to re
 
 襖(Fusuma) means sliding door used to partition off rooms in a Japanese house.
 
+
 Installation
+
 
 
 1. Grant permission to read the touchpad device
@@ -16,6 +18,7 @@ $ sudo gpasswd -a $USER input
 Then, You MUST LOGOUT/LOGIN or REBOOT to assign this group.
 
 
+
 2. Install libinput-tools
 
 
@@ -23,6 +26,7 @@ You need libinput release 1.0 or later.
 
 
 $ sudo apt-get install libinput-tools
+
 
 
 3. Install Ruby
@@ -34,10 +38,12 @@ Fusuma runs in Ruby, so you must install it first.
 $ sudo apt-get install ruby
 
 
+
 4. Install Fusuma
 
 
 $ sudo gem install fusuma
+
 
 
 5. Install xdotool (optional)
@@ -49,9 +55,11 @@ For sending shortcuts:
 $ sudo apt-get install xdotool
 
 
+
 Touchpad not working in GNOME
 Ensure the touchpad events are being sent to the GNOME desktop by running the following command:
 $ gsettings set org.gnome.desktop.peripherals.touchpad send-events enabled
+
 
 
 Usage
@@ -66,11 +74,9 @@ Update
 $ sudo gem update fusuma
 
 
+
 Customize Gesture Mapping
 
-
-
-Config file for touchpad gestures on linux machine
 
 
 
