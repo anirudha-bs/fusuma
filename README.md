@@ -74,6 +74,9 @@ Update
 $ sudo gem update fusuma
 
 
+create a directory for fusuma in ~/.config and paste the config.yml there.
+
+
 
 Customize Gesture Mapping
 
